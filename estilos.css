@@ -1,0 +1,108 @@
+/*Comentários no css*/
+
+:root {
+    --corprincipal:indigo;
+}
+
+body {
+    color: dimgray;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header{
+    background-color:var(--corprincipal);
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    background-image: url("./images/linguagens-front-end.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+article{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
+}
+
+h3{
+    color:var(--corprincipal);
+}
+
+p{
+    background-color:rgb(214, 170, 245); /*Cor de fundo*/
+    padding: 10px; /*Espaço aos lados do texto*/
+    text-align: justify; /*Texto Justificado*/
+    border-style: solid; /*Tipo de borda*/
+    border-width: 1px; /*Tamanho da Borda*/
+    border-color: indigo; /*Cor da Borda*/
+    border-radius:10px; /*Arredondamento*/
+    height: 150px;
+}
+
+article > h4{
+    color:var(--corprincipal);
+    border-bottom: 2px solid var(--corprincipal);
+}
+
+#html:hover{
+    background-color: rgb(247, 160, 80);
+}
+
+#css:hover{
+    background-color: rgb(128, 148, 240);
+}
+
+#js:hover{
+    background-color: rgb(230, 238, 113);
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    background-color:rgb(214, 170, 245);
+    color: indigo;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+a:hover{ /*hover é para modificar o texto ao passar o mouse em cima*/
+    background-color:indigo;
+    color:rgb(214, 170, 245); 
+    font-size: 10pt; /*Deixar a fonte deste tamanho quando passar o mouse em cima */
+}
+
+footer{
+    background-color: rgba(167, 169, 170, 0.774);
+    padding: 50px;
+    text-align: center;
+}
+
+.laranja{
+    color:rgb(243, 120, 4)
+}
+
+.azul{
+    color:darkblue;
+}
+
+.amarelo{
+    color:rgb(255, 217, 2)
+}
+
+
+
